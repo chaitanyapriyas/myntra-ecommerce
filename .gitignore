@@ -1,0 +1,36 @@
+# Copied XAMPP installation files
+/apache/
+/mysql/
+/xampp_shell.bat
+
+# Local feedback can contain user-submitted personal information
+/feedback.txt
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+**/config.local.php
+**/secrets.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs, temporary files, and generated caches
+*.log
+*.log.*
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+/tmp/
+/temp/
+/cache/
+__pycache__/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+desktop.ini
